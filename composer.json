@@ -11,6 +11,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
+        "php": ">=8.0.2",
         "symfony/yaml": "^6.0"
     },
     "autoload": {
