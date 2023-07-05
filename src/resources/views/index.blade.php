@@ -46,5 +46,8 @@
                 });
             };
         </script>
+
+        @include('laravel-docs::darkmode')
+
     </body>
 </html>
