@@ -32,35 +32,4 @@ return [
     */
 
     'file' => resource_path('docs/openapi.yaml'),
-
-    /*
-    |--------------------------------------------------------------------------
-    | Laravel Docs - Modify File
-    |--------------------------------------------------------------------------
-    |
-    | If this option is enabled, then the file will be changed before it is
-    | used by OpenAPI UI. The server url and oauth urls will be changed to
-    | the base url of this Laravel application.
-    |
-    */
-
-    'modify_file' => true,
-
-    /*
-    |--------------------------------------------------------------------------
-    | Laravel Docs - OAuth Config
-    |--------------------------------------------------------------------------
-    |
-    | This allows you to configure oauth within OpenAPI UI. It makes it easier
-    | to authenticate in OpenAPI UI by prefilling certain values.
-    |
-    */
-    'oauth' => [
-        'token_path' => 'oauth/token',
-        'refresh_path' => 'oauth/token',
-        'authorization_path' => 'oauth/authorize',
-
-        'client_id' => env('OPEN_API_OAUTH_CLIENT_ID'),
-        'client_secret' => env('OPEN_API_OAUTH_CLIENT_SECRET'),
-    ],
 ];
